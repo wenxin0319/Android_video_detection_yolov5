@@ -1,0 +1,54 @@
+{
+  "stringTable": {
+    "0": "F:/211_object/ncnn-android-yolov5-master/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=D:/android_sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android_sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dyolov5ncnn_EXPORTS -isystem F:/211_object/ncnn-android-yolov5-master/app/src/main/jni/ncnn-20201218-android-vulkan/arm64-v8a/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC -fno-rtti -fno-exceptions"
+  },
+  "buildFiles": [
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\android_sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\android_sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets-release.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\211_object\\ncnn-android-yolov5-master\\app\\.cxx\\cmake\\release\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"F:\\211_object\\ncnn-android-yolov5-master\\app\\.cxx\\cmake\\release\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Release-arm64-v8a": {
+      "buildCommand": "D:\\Android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\211_object\\ncnn-android-yolov5-master\\app\\.cxx\\cmake\\release\\arm64-v8a\" yolov5ncnn",
+      "buildType": "release",
+      "toolchain": "1878709328",
+      "abi": "arm64-v8a",
+      "artifactName": "yolov5ncnn",
+      "files": [
+        {
+          "src": "F:\\211_object\\ncnn-android-yolov5-master\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "F:\\211_object\\ncnn-android-yolov5-master\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libyolov5ncnn.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "1878709328": {
+      "cppCompilerExecutable": "D:\\android_sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

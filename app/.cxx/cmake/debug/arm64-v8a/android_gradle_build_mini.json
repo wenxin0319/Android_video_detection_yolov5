@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\android_sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\android_sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets-release.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "F:\\211_object\\android_object_detection_video\\app\\src\\main\\jni\\ncnn-20201218-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\211_object\\android_object_detection_video\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"F:\\211_object\\android_object_detection_video\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Debug-arm64-v8a": {
+      "artifactName": "yolov5ncnn",
+      "buildCommand": "D:\\Android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\211_object\\android_object_detection_video\\app\\.cxx\\cmake\\debug\\arm64-v8a\" yolov5ncnn",
+      "abi": "arm64-v8a",
+      "output": "F:\\211_object\\android_object_detection_video\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libyolov5ncnn.so",
+      "runtimeFiles": []
+    }
+  }
+}

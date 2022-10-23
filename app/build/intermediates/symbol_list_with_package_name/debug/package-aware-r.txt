@@ -1,0 +1,8 @@
+com.tencent.yolov5ncnn
+id buttonDetect
+id buttonDetectGPU
+id buttonImage
+id buttonVideo
+id imageView
+layout main
+string app_name

@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\211_object\android_object_detection_video\app\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.
